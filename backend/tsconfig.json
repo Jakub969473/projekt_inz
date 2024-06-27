@@ -1,0 +1,14 @@
+{
+  "extends": "@adonisjs/tsconfig/tsconfig.app.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "preserve",
+    "rootDir": "./",
+    "outDir": "./build",
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "exclude": ["./inertia/**/*", "node_modules", "build"],
+}
